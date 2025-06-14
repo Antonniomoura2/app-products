@@ -1,11 +1,11 @@
-package com.example.demo
+package br.com.education.carros
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class DemoApplication
+class CarrosApplication
 
 fun main(args: Array<String>) {
-    runApplication<DemoApplication>(*args)
+    runApplication<CarrosApplication>(*args)
 }
